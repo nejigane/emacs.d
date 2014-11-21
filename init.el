@@ -4,6 +4,8 @@
 (prefer-coding-system 'utf-8)
 
 (setq make-backup-files nil)
+(setq-default tab-width 4 indent-tabs-mode nil)
+(setq js-indent-level 2)
 
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "http://melpa.org/packages/") t)
