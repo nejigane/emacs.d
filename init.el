@@ -1,6 +1,7 @@
 (setq default-input-method "MacOSX")
 (set-language-environment "Japanese")
 (prefer-coding-system 'utf-8)
+(setq xterm-extra-capabilities nil)
 
 (setq make-backup-files nil)
 
